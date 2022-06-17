@@ -19,6 +19,7 @@ GEM
     console (1.15.3)
       fiber-local
     fiber-local (1.0.0)
+    localhost (1.1.9)
     nio4r (2.5.8)
     protocol-hpack (1.4.2)
     protocol-http (0.22.6)
@@ -37,6 +38,7 @@ PLATFORMS
 DEPENDENCIES
   async
   async-http
+  localhost
 
 BUNDLED WITH
    2.3.10
