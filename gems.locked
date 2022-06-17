@@ -1,8 +1,9 @@
 GEM
+  remote: https://rubygems.org/
   specs:
-    async (1.30.2)
+    async (2.0.3)
       console (~> 1.10)
-      nio4r (~> 2.3)
+      io-event (~> 1.0.0)
       timers (~> 4.1)
     async-http (0.56.6)
       async (>= 1.25)
@@ -19,8 +20,8 @@ GEM
     console (1.15.3)
       fiber-local
     fiber-local (1.0.0)
+    io-event (1.0.9)
     localhost (1.1.9)
-    nio4r (2.5.8)
     protocol-hpack (1.4.2)
     protocol-http (0.22.6)
     protocol-http1 (0.14.4)
