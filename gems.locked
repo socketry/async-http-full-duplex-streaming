@@ -1,0 +1,42 @@
+GEM
+  specs:
+    async (1.30.2)
+      console (~> 1.10)
+      nio4r (~> 2.3)
+      timers (~> 4.1)
+    async-http (0.56.6)
+      async (>= 1.25)
+      async-io (>= 1.28)
+      async-pool (>= 0.2)
+      protocol-http (~> 0.22.0)
+      protocol-http1 (~> 0.14.0)
+      protocol-http2 (~> 0.14.0)
+      traces (~> 0.4.0)
+    async-io (1.33.0)
+      async
+    async-pool (0.3.10)
+      async (>= 1.25)
+    console (1.15.3)
+      fiber-local
+    fiber-local (1.0.0)
+    nio4r (2.5.8)
+    protocol-hpack (1.4.2)
+    protocol-http (0.22.6)
+    protocol-http1 (0.14.4)
+      protocol-http (~> 0.22)
+    protocol-http2 (0.14.2)
+      protocol-hpack (~> 1.4)
+      protocol-http (~> 0.18)
+    timers (4.3.3)
+    traces (0.4.1)
+
+PLATFORMS
+  ruby
+  x86_64-linux
+
+DEPENDENCIES
+  async
+  async-http
+
+BUNDLED WITH
+   2.3.10
